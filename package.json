@@ -1,0 +1,34 @@
+{
+  "name": "trollend-logger",
+  "version": "0.0.1",
+  "description": " A trollend logger component",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "concat-stream": "^1.5.1",
+    "mocha": "^3.0.2",
+    "stream-array": "^1.1.2"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgarnier/trollend-logger.git"
+  },
+  "keywords": [
+    "trollend",
+    "logger",
+    "etl"
+  ],
+  "author": "Clément Garnier <cle.garnier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgarnier/trollend-logger/issues"
+  },
+  "homepage": "https://github.com/cgarnier/trollend-logger#readme"
+}

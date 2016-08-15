@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '6'
+install:
+- npm install
+deploy:
+  - provider: npm
+    on:
+      tags: true
+      all_branches: true
+    email: cle.garnier@gmail.com
+    api_key:
+      secure: Go5NLMobidSXjN3Qv7QlUauQLadlXqWWdbieYub5IQT2V2jMuADTPIncKGX04QF8vv3F+8Zww5ffbCas8cdk4560pa7dmR7Gupa1bSTt+KN1qhH1kVnlrMskY/nKs8KxZ37TvWoNnwMB1oS7qwqKqUrHsz9Y2bwRcX2zM6aIFDuI2VG+o2GhrlInd4dMMxESCahjy5XPopM2w7mTFJ8vB+g72v3FJ5rjiVPwgr96ui5LOjl4pRDjGKlS9n2KLprVWy/XGcXdoTZanLHpliv5bNno2iw1HxT3f3l8waknRe56RtRCKtoQ+wZa1gN18286+pmKkllCcFV/y/KWxNJf2/CUBAYjT1fzkaaQkFGbmSLoKtVm88v4rXANNy0ojIdH0TWneLPqVjgCtWGINGtDC//nXNtsSRd/00VtYM7X3qWh8LNPB+yXSVWXzMQcxdUVBSOrkqnBuXeH4emrkZKgUfNt4I2fQES/UOBuHYtf9jaBpiPmDsxR4JvVwslGw+UES/648wO3whmNHepUaoys3QZoShu8Bg+huTvcgWlyTpb3dVFtyynGpLqfLi454hOx1J6MgjVj4h8XS0zInf3ksDvpoZ6Zvex7oKGwDX4eBm1hGQwEOLt6IV8rEINnJQxyrOtPocG/i9ZBqfGTwhVD/7nGUmiDDiSus1aiPv8Z9P4=
+script:
+- npm test
