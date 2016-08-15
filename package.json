@@ -1,6 +1,6 @@
 {
   "name": "trollend-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": " A trollend logger component",
   "main": "lib/index.js",
   "directories": {
